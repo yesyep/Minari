@@ -1,0 +1,95 @@
+body p{
+  font-size: 1.2rem;
+  font-family: 'Dosis';
+}
+
+.color_green {
+  color: #3fd33f;
+}
+
+.whole_wrapper .head , .foot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+}
+main{
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+
+/*header*/
+.whole_wrapper .head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+  background-color: rgba(255, 220, 213, 0.94);
+}
+.head header {
+  flex-basis: 1000px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.head header nav {
+  margin-bottom: 30px;
+}
+.head header nav ol li {
+  float: right;
+  margin: 0px 0px 0px 15px;
+}
+ .head header .hgroup {
+   flex-basis: auto;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+.head header .hgroup h1 {
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+/*header*/
+
+/*body*/
+.body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.body .content {
+  flex-basis: 1000px;
+  display: flex;
+}
+
+/*body nav*/
+.body .content nav{
+  flex-basis: 150px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+.body .content nav ul li {
+  padding: 10px;
+}
+
+/*body nav*/
+
+/*body*/
+
+
+
+/*foot*/
+.foot footer{
+  flex-basis: 1000px;
+}
+.foot footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+.foot footer .copyright p {
+  font-size: 1rem;
+}
+/*foot*/

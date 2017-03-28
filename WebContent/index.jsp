@@ -4,39 +4,69 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Minari</title>
+
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Dosis" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+
 </head>
+
 <body>
-<div class="container">
-  <%-- Start of header --%>
-  <header>
+  <div class="whole_wrapper">
+    <%-- Start of head --%>
+    <div class="head">
+      <%-- Start of header --%>
+      <header>
+        <nav>
+          <ol>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">로그인</a></li>
+          </ol>
+        </nav>
 
-  </header>
-  <%-- End of header --%>
-  <%-- Start of section --%>
-  <section>
-    <%-- Start of nav --%>
-    <nav>
+        <div class="hgroup">
+          <h1><a href="index.jsp">MINARI</a></h1>
+          <p>Story about Minari Family.</p>
+        </div>
 
-    </nav>
-    <%-- End of nav --%>
-    <%-- Start of main --%>
-    <main>
+      </header> <%-- End of header --%>
+    </div> <%-- End of head --%>
 
-    </main>
-    <%-- End of main --%>
-    <%-- Start of aside --%>
-    <aside class="">
+    <%-- Start of body --%>
+    <div class="body">
+      <%-- Start of section --%>
+      <section class="content">
+        <%-- Start of nav --%>
+        <nav>
+          <ul>
+            <li><a href="#">소식</a></li>
+            <li><a href="#">이야기</a></li>
+            <li><a href="#">사진</a></li>
+            <li><a href="#">일정</a></li>
+          </ul>
+        </nav><%-- End of nav --%>
 
-    </aside>
-    <%-- End of aside --%>
-  </section>
-  <%-- End of section --%>
-  <%-- Start of footer --%>
-  <footer>
+        <%-- Start of main --%>
+        <main>
+          main
+        </main> <%-- End of main --%>
+      </section> <%-- End of section --%>
+    </div> <%-- End of body --%>
 
-  </footer>
-  <%-- End of footer --%>
-</div>
+    <%-- Start of foot --%>
+    <div class="foot">
+      <%-- Start of footer --%>
+      <footer>
+        <div class="copyright">
+          <p>ⓒ 2017 <a href="about.jsp"><span class="color_green">oyeahhh</span></a></p>
+        </div>
+      </footer> <%-- End of footer --%>
+    </div> <%-- End of foot --%>
+
+  </div> <%-- End of whole_wrapper --%>
 </body>
 </html>
